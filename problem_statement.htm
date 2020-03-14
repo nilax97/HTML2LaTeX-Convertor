@@ -1,0 +1,131 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body>
+    <div>
+      <style>
+	div {
+    	margin-left: 10px;
+	}
+	</style>
+      <title> COP 701(Assignment 1)</title>
+      <center>
+        <h2><b>COP701 Assignment 01</b></h2>
+      </center>
+      <center><b></b>
+        <h3><b>HTML to LaTeX Converter</b></h3>
+      </center>
+      <p> </p>
+      <center><b><u>Problem statement</u></b><br>
+      </center>
+      This is your <b>first assignment</b> in the <b>COP 701</b>
+      course.In this assignment your main objective is to convert a <b>HTML</b> 
+      document to an equivalent <b>LaTeX</b>  document.<br>
+      In pursuance of this objective, you will have to write a HTML to
+      LaTeX parser from scratch.<br>
+      <h4>The features(tags) of HTML which you all need to consider
+        are:-<br>
+      </h4>
+      <ul>
+        <li><b>head</b></li>
+        <li><b>body</b></li>
+        <li><b>title</b></li>
+        <li><b>a, href</b></li>
+        <li><b>font: size</b></li>
+        <li><b>center</b></li>
+        <li><b>br</b></li>
+        <li><b>p</b></li>
+        <li><b>h1, h2, h3, h4</b></li>
+        <li><b>ul, li, ol, ul, dl, dt, dd</b></li>
+        <li><b>div</b><br></li>
+        <li><b>u, b, i, em, tt, strong, small, </b><br></li>
+        <li><b>sub, sup</b></li>
+        <li><b>img: src, width, height, figure, figcaption</b></li>
+        <li><b>table, caption, th, tr, td</b></li>
+      </ul>
+      <b>Some more commands, mathematical symbols, math-mode
+        operators(for extra credit)<br>
+      </b>
+      <p></p>
+      <p></p>
+      <center><b><u>Workflow and subtasks</u></b><br>
+      </center>
+      <h4>The entire assignment can be divided into the following
+        sub-tasks:<br>
+      </h4>
+      <ul>
+        <li>Learn about HTML and LaTeX in brief.</li>
+        <li>Write a lexer i.e to do a lexical analysis of your HTML
+          code and generate a string of tokens. Programs that you can
+          use: flex, jflex<br>
+        </li>
+        <li> Do <b>not</b> use any available libraries to parse the html. </li>
+        <li>Parse the sequence of tokens using parser such as yacc, CUP,
+          ANTLR, bison (C++ or Java)<br>
+        </li>
+        <li>Generate an AST(Abstract Syntax Tree) of your HTML code. <a
+href="https://blog.buildo.io/a-tour-of-abstract-syntax-trees-906c0574a067">link</a><br>
+        </li>
+        <li>Map it to an equivalent AST of LaTeX.<br>
+        </li>
+        <li>Generate the equivalent LaTeX code which can be compiled to a PDF using TexMaker<br>
+        </li>
+      </ul>
+      <p></p>
+      <p> </p>
+      <center><b><u>Links to important resources</u></b><br>
+      </center>
+      <ul>
+        <li><a
+            href="http://alumni.cs.ucr.edu/%7Elgao/teaching/flex.html"><b>Know
+              about Flex tool and performing lexical analysis using
+              that.</b></a></li>
+        <li><a
+href="http://www.cse.chalmers.se/edu/year/2015/course/DAT150/lectures/proglang-04.html"><b>Some
+              more resource regarding Flex.</b></a></li>
+        <li><a href="http://wiki.c2.com/?AbstractSyntaxTree"><b>Introduction
+              to an Abstract Syntax Tree.</b></a></li>
+        <li><a href="https://www.gnu.org/software/bison/"><b>Bison
+              parser generator</b></a></li>
+        <li><a
+href="https://www.l2f.inesc-id.pt/%7Edavid/w/pt/The_YACC_Parser_Generator"><b>YACC
+              parser generator</b></a></li>
+      </ul>
+      <p></p>
+      <p> </p>
+      <center><b><u>Logistics</u></b><br>
+        <br>
+      </center>
+      <ul>
+        <li>You are free to code in <b>any</b> programming language.</li>
+        <li>The <b>deadline</b> for this assignment is <b>1/09/2019
+            at 11:55 pm</b>.It is a hard deadline and will not be
+          extended.</li>
+        <li>This is an individual assignment (30 Marks) </li>
+        <li>Any form of <b>plagiarism</b> will not be tolerated.</li>
+        <li> Also, create a <b>run.sh</b> file where the first argument will be the name of the html file and the second argument will be the name of the  output tex file. We will run the command <i>./run.sh input.html output.tex</i> during the demo. </li>
+        <li>Submission will be made on Moodle.  You need to submit all your code (parser, translator) and a pdf format report. Compress all these in a tar file and upload on Moodle.</li>
+        <li>You will be graded on the output of your code, the coding style and your viva/presentation.</li>
+        <li> Marks distribution: Coding style - 25% , Demo - 75% </li>
+        <li> We will be testing on hidden test cases during the demos </li>
+      </ul>
+      <p></p>
+
+      <center><b><u>Sample test case</u></b><br></center>
+<ul>
+        <li><a href="http://www.cse.iitd.ac.in/~shubhankar/TA/COP701/sample1.html">sample1.html</a>,
+
+        <a href="http://www.cse.iitd.ac.in/~shubhankar/TA/COP701/logo.png">img1</a>
+        ,
+        <a href="http://www.cse.iitd.ac.in/~shubhankar/TA/COP701/marley.jpg">img2</a>  
+
+
+        </li>
+</ul>
+    </div>
+  </body>
+</html>
