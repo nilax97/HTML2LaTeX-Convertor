@@ -1,4 +1,4 @@
-# Html2Latex Convertor
+# HTML2LaTeX-Convertor
 HTML to LaTeX convertor implemented using Lex and Yacc made for assignment of course COL701 at IIT Delhi
 
 # Demo
