@@ -12,7 +12,7 @@ The output pdf will be in `examples/sample1.pdf`
 
 # Details
 
-In this assignment the main objective is to convert a HTML document to an equivalent LaTeX document. In pursuance of this objective, have written a HTML to LaTeX parser from scratch. The exact problem statement is given in [problem_statement.htm](problem_statement.htm)
+In this assignment the main objective is to convert a HTML document to an equivalent LaTeX document. In pursuance of this objective, have written a HTML to LaTeX parser from scratch. The exact problem statement is given in [problem_statement.pdf](problem_statement.pdf)
 
 The features(tags) of HTML which we all needed to consider are:
 
